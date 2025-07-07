@@ -1,3 +1,46 @@
-theme: jekyll-theme-minimal
-title: Maths and Computer technologies
-description: Bookmark this to keep an eye on my project updates!
+title: Stewart Worrall - Maths & Computing Technologies
+description: Exploring the confluence of mathematics and computing technology through robotics, art, data science, and AI applications
+author: Stewart Worrall
+email: your-email@example.com
+url: "https://stewart-worrall.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"

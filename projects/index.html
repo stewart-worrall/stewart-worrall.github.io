@@ -1,0 +1,418 @@
+---
+layout: default
+title: Projects
+---
+
+<div class="projects-page">
+    <div class="page-header">
+        <h1>Projects</h1>
+        <p>Explore mathematical and computing applications across different domains</p>
+    </div>
+
+    <!-- Search and Filter Section -->
+    <div class="filter-section">
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search projects..." id="project-search">
+            <i class="fas fa-search search-icon"></i>
+        </div>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="robotics">Robotics</button>
+            <button class="filter-btn" data-filter="ai-ml">AI/ML</button>
+            <button class="filter-btn" data-filter="data-science">Data Science</button>
+            <button class="filter-btn" data-filter="digital-art">Digital Art</button>
+            <button class="filter-btn" data-filter="computer-graphics">Graphics</button>
+            <button class="filter-btn" data-filter="cryptography">Cryptography</button>
+        </div>
+    </div>
+
+    <!-- Projects Grid -->
+    <div class="projects-grid" id="projects-container">
+        <!-- Robotics Projects -->
+        <div class="project-card" data-category="robotics">
+            <div class="project-image">
+                <i class="fas fa-robot"></i>
+            </div>
+            <div class="project-content">
+                <h3>Autonomous Path Planning</h3>
+                <p>Implementation of A* algorithm with dynamic obstacle avoidance for robotic navigation systems.</p>
+                <div class="project-tags">
+                    <span class="project-tag">Robotics</span>
+                    <span class="project-tag">Algorithms</span>
+                    <span class="project-tag">Python</span>
+                </div>
+                <a href="/projects/autonomous-path-planning/" class="btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="project-card" data-category="robotics">
+            <div class="project-image">
+                <i class="fas fa-cogs"></i>
+            </div>
+            <div class="project-content">
+                <h3>PID Controller Simulation</h3>
+                <p>Interactive simulation of PID control systems for robotic arm positioning and stability.</p>
+                <div class="project-tags">
+                    <span class="project-tag">Control Theory</span>
+                    <span class="project-tag">Simulation</span>
+                    <span class="project-tag">JavaScript</span>
+                </div>
+                <a href="/projects/pid-controller/" class="btn">View Project</a>
+            </div>
+        </div>
+
+        <!-- AI/ML Projects -->
+        <div class="project-card" data-category="ai-ml">
+            <div class="project-image">
+                <i class="fas fa-brain"></i>
+            </div>
+            <div class="project-content">
+                <h3>Neural Network Visualization</h3>
+                <p>Interactive 3D visualization of neural network architectures and training dynamics.</p>
+                <div class="project-tags">
+                    <span class="project-tag">Machine Learning</span>
+                    <span class="project-tag">Visualization</span>
+                    <span class="project-tag">Three.js</span>
+                </div>
+                <a href="/projects/neural-network-viz/" class="btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="project-card" data-category="ai-ml">
+            <div class="project-image">
+                <i class="fas fa-chart-bar"></i>
+            </div>
+            <div class="project-content">
+                <h3>Gradient Descent Explorer</h3>
+                <p>Interactive visualization of gradient descent optimization in machine learning algorithms.</p>
+                <div class="project-tags">
+                    <span class="project-tag">Optimization</span>
+                    <span class="project-tag">Mathematics</span>
+                    <span class="project-tag">Canvas</span>
+                </div>
+                <a href="/projects/gradient-descent/" class="btn">View Project</a>
+            </div>
+        </div>
+
+        <!-- Data Science Projects -->
+        <div class="project-card" data-category="data-science">
+            <div class="project-image">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="project-content">
+                <h3>Statistical Analysis Dashboard</h3>
+                <p>Interactive dashboard for exploring statistical concepts and data visualization techniques.</p>
+                <div class="project-tags">
+                    <span class="project-tag">Statistics</span>
+                    <span class="project-tag">Dashboard</span>
+                    <span class="project-tag">D3.js</span>
+                </div>
+                <a href="/projects/statistical-dashboard/" class="btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="project-card" data-category="data-science">
+            <div class="project-image">
+                <i class="fas fa-database"></i>
+            </div>
+            <div class="project-content">
+                <h3>Big Data Processing Pipeline</h3>
+                <p>Scalable data processing pipeline using distributed computing and parallel algorithms.</p>
+                <div class="project-tags">
+                    <span class="project-tag">Big Data</span>
+                    <span class="project-tag">Distributed Computing</span>
+                    <span class="project-tag">Python</span>
+                </div>
+                <a href="/projects/big-data-pipeline/" class="btn">View Project</a>
+            </div>
+        </div>
+
+        <!-- Digital Art Projects -->
+        <div class="project-card" data-category="digital-art">
+            <div class="project-image">
+                <i class="fas fa-palette"></i>
+            </div>
+            <div class="project-content">
+                <h3>Generative Art Engine</h3>
+                <p>Mathematical algorithms generating unique artistic patterns using chaos theory and fractals.</p>
+                <div class="project-tags">
+                    <span class="project-tag">Generative Art</span>
+                    <span class="project-tag">Fractals</span>
+                    <span class="project-tag">JavaScript</span>
+                </div>
+                <a href="/projects/generative-art/" class="btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="project-card" data-category="digital-art">
+            <div class="project-image">
+                <i class="fas fa-music"></i>
+            </div>
+            <div class="project-content">
+                <h3>Algorithmic Music Composition</h3>
+                <p>Mathematical algorithms for generating musical compositions based on mathematical patterns.</p>
+                <div class="project-tags">
+                    <span class="project-tag">Music</span>
+                    <span class="project-tag">Algorithms</span>
+                    <span class="project-tag">Web Audio API</span>
+                </div>
+                <a href="/projects/algorithmic-music/" class="btn">View Project</a>
+            </div>
+        </div>
+
+        <!-- Computer Graphics Projects -->
+        <div class="project-card" data-category="computer-graphics">
+            <div class="project-image">
+                <i class="fas fa-cube"></i>
+            </div>
+            <div class="project-content">
+                <h3>Ray Tracing Engine</h3>
+                <p>Real-time ray tracing implementation with advanced lighting and material systems.</p>
+                <div class="project-tags">
+                    <span class="project-tag">3D Graphics</span>
+                    <span class="project-tag">Ray Tracing</span>
+                    <span class="project-tag">WebGL</span>
+                </div>
+                <a href="/projects/ray-tracing/" class="btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="project-card" data-category="computer-graphics">
+            <div class="project-image">
+                <i class="fas fa-shapes"></i>
+            </div>
+            <div class="project-content">
+                <h3>Geometric Algorithm Visualizer</h3>
+                <p>Interactive visualization of computational geometry algorithms and geometric transformations.</p>
+                <div class="project-tags">
+                    <span class="project-tag">Geometry</span>
+                    <span class="project-tag">Algorithms</span>
+                    <span class="project-tag">Canvas</span>
+                </div>
+                <a href="/projects/geometric-algorithms/" class="btn">View Project</a>
+            </div>
+        </div>
+
+        <!-- Cryptography Projects -->
+        <div class="project-card" data-category="cryptography">
+            <div class="project-image">
+                <i class="fas fa-shield-alt"></i>
+            </div>
+            <div class="project-content">
+                <h3>RSA Encryption Demo</h3>
+                <p>Interactive demonstration of RSA encryption and decryption with mathematical explanations.</p>
+                <div class="project-tags">
+                    <span class="project-tag">Cryptography</span>
+                    <span class="project-tag">Number Theory</span>
+                    <span class="project-tag">JavaScript</span>
+                </div>
+                <a href="/projects/rsa-encryption/" class="btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="project-card" data-category="cryptography">
+            <div class="project-image">
+                <i class="fas fa-link"></i>
+            </div>
+            <div class="project-content">
+                <h3>Blockchain Implementation</h3>
+                <p>Educational implementation of blockchain technology with proof-of-work consensus.</p>
+                <div class="project-tags">
+                    <span class="project-tag">Blockchain</span>
+                    <span class="project-tag">Cryptography</span>
+                    <span class="project-tag">Python</span>
+                </div>
+                <a href="/projects/blockchain-demo/" class="btn">View Project</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.projects-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--space-2xl) var(--space-lg);
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: var(--space-3xl);
+}
+
+.page-header h1 {
+    font-size: 3rem;
+    margin-bottom: var(--space-md);
+    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.page-header p {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.filter-section {
+    margin-bottom: var(--space-3xl);
+}
+
+.search-container {
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto var(--space-xl) auto;
+}
+
+.search-input {
+    width: 100%;
+    padding: var(--space-md) var(--space-lg) var(--space-md) 3rem;
+    border: 2px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    font-size: 1rem;
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    transition: all var(--transition-fast);
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.search-icon {
+    position: absolute;
+    left: var(--space-md);
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: var(--space-sm) var(--space-lg);
+    border: 1px solid var(--border-color);
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+    border-radius: var(--radius-lg);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    font-weight: 500;
+}
+
+.filter-btn:hover {
+    background: var(--bg-tertiary);
+    border-color: var(--accent-primary);
+    color: var(--text-primary);
+}
+
+.filter-btn.active {
+    background: var(--accent-primary);
+    color: white;
+    border-color: var(--accent-primary);
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: var(--space-xl);
+}
+
+.project-card {
+    opacity: 1;
+    transform: scale(1);
+    transition: all var(--transition-normal);
+}
+
+.project-card.hidden {
+    opacity: 0;
+    transform: scale(0.8);
+    pointer-events: none;
+}
+
+@media (max-width: 768px) {
+    .projects-page {
+        padding: var(--space-xl) var(--space-md);
+    }
+    
+    .page-header h1 {
+        font-size: 2.5rem;
+    }
+    
+    .filter-buttons {
+        gap: var(--space-xs);
+    }
+    
+    .filter-btn {
+        padding: var(--space-xs) var(--space-md);
+        font-size: 0.875rem;
+    }
+    
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+
+<script>
+// Project filtering functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+    const searchInput = document.getElementById('project-search');
+    
+    let currentFilter = 'all';
+    let currentSearch = '';
+    
+    // Filter button functionality
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const filter = this.getAttribute('data-filter');
+            
+            // Update active button
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            this.classList.add('active');
+            
+            currentFilter = filter;
+            filterProjects();
+        });
+    });
+    
+    // Search functionality
+    searchInput.addEventListener('input', function() {
+        currentSearch = this.value.toLowerCase();
+        filterProjects();
+    });
+    
+    function filterProjects() {
+        projectCards.forEach(card => {
+            const category = card.getAttribute('data-category');
+            const title = card.querySelector('h3').textContent.toLowerCase();
+            const description = card.querySelector('p').textContent.toLowerCase();
+            const tags = Array.from(card.querySelectorAll('.project-tag'))
+                .map(tag => tag.textContent.toLowerCase());
+            
+            const matchesFilter = currentFilter === 'all' || category === currentFilter;
+            const matchesSearch = currentSearch === '' || 
+                title.includes(currentSearch) || 
+                description.includes(currentSearch) || 
+                tags.some(tag => tag.includes(currentSearch));
+            
+            if (matchesFilter && matchesSearch) {
+                card.classList.remove('hidden');
+            } else {
+                card.classList.add('hidden');
+            }
+        });
+    }
+});
+</script> 
